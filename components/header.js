@@ -1,9 +1,14 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <>
-      <div>
-        <h2>Header file</h2>
-      </div>
-    </>
+    <div className="header-list">
+      <Link href="/">
+        <a>Home</a>
+      </Link>
+      <Link href="/about">
+        <a>About</a>
+      </Link>
+    </div>
   );
 }
