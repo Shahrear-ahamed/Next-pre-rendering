@@ -1,6 +1,7 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "../styles/globals.css";
+import "../styles/layout.css";
 
 export default function MyApp({ Component, pageProps }) {
   if (Component.getLayout) {
